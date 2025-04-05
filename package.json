@@ -1,0 +1,16 @@
+{
+  "name": "deploy",
+  "version": "1.0.0",
+  "description": "first deployment",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "Subhojit",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0"
+  }
+}
