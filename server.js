@@ -23,6 +23,6 @@ app.get('/aws', (req, res) => {
 });
 
 const port = process.env.PORT || 3000;
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
     console.log(`hosting at localhost:${port}`);
 });
