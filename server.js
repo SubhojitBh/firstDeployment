@@ -22,7 +22,7 @@ app.get('/aws', (req, res) => {
     `);
 });
 
-const port = process.env.PORT || 22;
+const port = process.env.PORT || 80;
 app.listen(port, '0.0.0.0', () => {
     console.log(`hosting at localhost:${port}`);
 });
